@@ -11,6 +11,11 @@
     <modules>
         <module>ms-provider-user</module>
         <module>ms-consumer-movie</module>
+        <module>ms-discovery-eureka</module>
+        <module>ms-discovery-eureka-copy</module>
+        <module>ms-discovery-eureka-auth</module>
+        <module>ms-provider-user-metadata</module>
+        <module>ms-consumer-movie-metadata</module>
     </modules>
 
 
