@@ -16,6 +16,7 @@
         <module>ms-discovery-eureka-auth</module>
         <module>ms-provider-user-metadata</module>
         <module>ms-consumer-movie-metadata</module>
+        <module>ms-consumer-movie-ribbon</module>
     </modules>
 
 

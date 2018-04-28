@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <groupId>com.jinliang.cloud</groupId>
-    <artifactId>ms-consumer-movie</artifactId>
+    <artifactId>ms-consumer-movie-ribbon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ms-consumer-movie</name>
-    <description>consumer-movie</description>
+    <name>ms-consumer-movie-ribbon</name>
+    <description>consumer-movie-ribbon</description>
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -29,10 +29,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
