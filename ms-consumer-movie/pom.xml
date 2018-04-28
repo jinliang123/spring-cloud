@@ -10,7 +10,7 @@
 
     <name>ms-consumer-movie</name>
     <description>consumer-movie</description>
-
+    <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
