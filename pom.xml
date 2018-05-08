@@ -17,6 +17,10 @@
         <module>ms-provider-user-metadata</module>
         <module>ms-consumer-movie-metadata</module>
         <module>ms-consumer-movie-ribbon</module>
+        <module>ms-consumer-movie-feign</module>
+        <module>ms-consumer-movie-feign-customizing</module>
+        <module>ms-provider-user-with-auth</module>
+        <module>ms-consumer-movie-feign-manual</module>
     </modules>
 
 
