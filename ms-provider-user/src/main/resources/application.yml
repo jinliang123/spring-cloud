@@ -12,7 +12,6 @@ spring:
     data: classpath:data.sql
   application:
       name: ms-provider-user
-  profiles: server1
 
 logging:
     level:
@@ -26,32 +25,32 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
----
-server:
-  port: 8001
-spring:
-  jpa:
-    generate-ddl: false
-    show-sql: true
-    hibernate:
-      ddl-auto: none
-  datasource:
-    platform: h2
-    schema: classpath:schema.sql
-    data: classpath:data.sql
-  application:
-      name: ms-provider-user
-  profiles: server2
-
-logging:
-    level:
-      root: INFO
-      org.hibernate: INFO
-      org.hibernate.type.descriptor.sql.BasicBinder: trace
-      org.hibernate.type.descriptor.sql.BasicExtractor: trace
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    prefer-ip-address: true
+#---
+#server:
+#  port: 8001
+#spring:
+#  jpa:
+#    generate-ddl: false
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: none
+#  datasource:
+#    platform: h2
+#    schema: classpath:schema.sql
+#    data: classpath:data.sql
+#  application:
+#      name: ms-provider-user
+#  profiles: server2
+#
+#logging:
+#    level:
+#      root: INFO
+#      org.hibernate: INFO
+#      org.hibernate.type.descriptor.sql.BasicBinder: trace
+#      org.hibernate.type.descriptor.sql.BasicExtractor: trace
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
