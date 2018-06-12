@@ -24,6 +24,8 @@
         <module>ms-consumer-movie-feign-hystrix</module>
         <module>ms-consumer-movie-ribbon-hystrix</module>
         <module>ms-hystrix-dashboard</module>
+        <module>ms-gateway-zuul</module>
+        <module>ms-file-upload</module>
     </modules>
 
 
